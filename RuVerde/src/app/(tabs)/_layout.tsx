@@ -29,20 +29,21 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <TabBarIcon name="cutlery" color={color} />,
         }}
       />
-      <Tabs.Screen
-        name="two"
-        options={{
-          title: 'Resíduos',
-          tabBarIcon: ({ color }) => <TabBarIcon name="recycle" color={color} />,
-          headerShown: false 
-        }}
-      />
 
       <Tabs.Screen
         name="infos"
         options={{
           title: 'infos',
           tabBarIcon: ({ color }) => <TabBarIcon name="info" color={color} />,
+          headerShown: false 
+        }}
+      />
+
+      <Tabs.Screen
+        name="two"
+        options={{
+          title: 'Resíduos',
+          tabBarIcon: ({ color }) => <TabBarIcon name="recycle" color={color} />,
           headerShown: false 
         }}
       />
