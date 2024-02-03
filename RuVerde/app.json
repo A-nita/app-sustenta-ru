@@ -9,8 +9,8 @@
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "##7ba088"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -47,6 +47,9 @@
     "extra": {
       "router": {
         "origin": false
+      },
+      "eas": {
+        "projectId": "7e9abdce-6e4a-4494-8e52-fa9fda314153"
       }
     }
   }
